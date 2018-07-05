@@ -1,26 +1,36 @@
+
+// ------Task00-------
 // var width = parseInt(prompt('Enter the width: '));
-// var row = 0;
-// while (row<width){
+// var row = width;
+// var i = width-1;
+// while (row < width*2) {
 //     var star = 0;
-//     while (star<row) {
-//         document.write("* ");
+//         i--;
+//     while (star < row) {
+//         if (star>i)
+//             document.write("* ");
+//         else
+//             document.write("&nbsp;&nbsp; ");
 //         star++;
 //     }
-//     document.write("* <br>");
+//     document.write("<br>");
 //     row++;
 // }
 
 
-//
+
+//------Task01-------
 // var width = parseInt(prompt('Enter the width: '));
-// var row = 0;
-// while (row < width) {
+// var row = width;
+// var i = width;
+// while (row < width*2) {
 //     var star = 0;
-//     while (star <= row) {
-//         if (row==width-1||row==0||star==0||star==row)
+//         i--;
+//     while (star < row) {
+//         if (star==i||star==row-1||row==(width*2)-1)
 //             document.write("* ");
 //         else
-//             document.write("&nbsp;&nbsp; ")
+//             document.write("&nbsp;&nbsp; ");
 //         star++;
 //     }
 //     document.write("<br>");
