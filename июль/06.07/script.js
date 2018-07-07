@@ -16,14 +16,36 @@
 // }
 // a[buf_min] = max;
 // a[buf_max] = min;
-// document.write("min => "+min+"<br>");
-// document.write("max => "+max+"<br>");
-// document.write("buf_min => "+buf_min+"<br>");
-// document.write("buf_max => "+buf_max+"<br>");
 // console.log(a);
 
 
+
 // ---------Task 02---------
+// var a=[1,2,3,4,5];
+// for (var i=a.length-1;i >= 0; i--){
+// 	a.push(a[i]);
+// } 
+// for (var i=0;i<a.length-1;i++){
+// 	a.shift(a[i]);
+// } 
+//     console.log(a);
+
+
+
+// ---------Task 03---------
+// function showArray(a){
+// 	document.write('<ul>');
+// 	a.forEach((e)=>document.write
+// 		('<li><h1>'+e+'</h1></li>'));
+// 	document.write('</ul>');
+// }
+// var links = ['http://google.com','http://fb.com','http://vk.com'];
+// var names = ['google','facebook','vkontakte'];
+// var google = '<a href="'+links[0]+'">'+names[0]+'</a>';
+// var fb = '<a href="'+links[1]+'">'+names[1]+'</a>';
+// var vk = '<a href="'+links[2]+'">'+names[2]+'</a>';
+// var a = [google,fb,vk];
+// showArray(a)
 
 
 
